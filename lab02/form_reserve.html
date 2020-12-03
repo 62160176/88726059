@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Form demo</title>
+</head>
+<body>
+    <h3>Form Demo</h3>
+    <form method="POST" action="https://angsila.cs.buu.ac.th/~wittawas/632/88726059/lab02/afile.php">
+    <table>
+        <tr>
+            <td for="roomtype">Room Type</td>
+            <td><select name="roomtype">
+                <option value="0">Plese Select</option>
+                <option value="Standard">Standard</option>
+                <option value="Luxury">Luxury</option>
+                <option value="Deluxe">Deluxe</option>
+            </select></td>
+        </tr> 
+        <tr>
+            <td for="numguest">Number of Guests</td>
+            <td><select name="numguest">
+                <option value="0">Plese Select</option>
+                <option value="1-2">1-2</option>
+                <option value="3-4">3-4</option>
+                <option value="5-6">5-6</option>
+                <option value="7-8">7-8</option>
+            </select></td>
+        </tr> 
+
+        <tr>
+            <td><lable for="name">Name</lable></td>
+            <td><input type="text" name="fame" id="fame"></td>
+            <td><input type="text" name="lname" id="lname"></td>
+        <tr>
+
+        <tr>
+            <td><lable for="name">Email</lable></td>
+            <td><input type="text" email="youremail"></td>
+        </tr>
+
+        <tr>
+            <td><lable for="name">Arrival</lable></td>
+            <td><input type="date" name="arrivaldate" id="arrivaldate"></td>
+            <td><input type="time" name="arrivaltime" id="arrivaltime"></td>
+        </tr>
+
+        <tr>
+            <td><lable for="name">Departure</lable></td>
+            <td><input type="date" name="departuredate" id="departuredate"></td>
+        </tr>
+
+        <tr>
+            <td><lable for="Pickup">Free Pickup</lable></td>
+            <td><input type="radio" name="Pickup" id="Pickup" value="Yes">Yes,Sure!<br>
+            <td><input type="radio" name="Pickup" id="Pickup" value="No">No,I already ranted a car</td>
+        </tr>
+
+        <tr>
+            <td><lable for="name">Flight Number</lable></td>
+            <td><input type="text" name="Flight" id="Flight"></td>
+        </tr>
+        <br>
+        <tr><td>Other requests</td>
+            <td><Textarea name="Otherreq" id="comment" row="5" cols="50"></Textarea></td>
+            </tr>
+            <tr aligh="center">
+                <td colspan="1"></td>
+                <td>
+                <input type="submit" value="Complete Resservation">
+                </td>
+</table>
+</form>  
+</body>
+</html>
