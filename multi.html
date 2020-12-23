@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi</title>
+    <script>
+        function multi(num) {
+        num = document.getElementById('number').value
+        div = document.getElementById('disp');
+        div.innerHTML = " "; 
+        for (i=1;i<=12;i++) {
+            div.innerHTML += num + "x" + i + "=" + (num * i) + "<br>";
+        }
+    }        
+    </script>
+</head>
+<body>
+    <b>2.โปรแกรม สูตรคูณ -multi.html</b></br></br>
+    <input type="Integer" id="number" >
+    <button onclick="multi();">คำนวณสูตร</button>
+    <div id="disp"></div>   
+</body>
+</html>
